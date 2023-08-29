@@ -40,14 +40,17 @@ const SubmitHandler = e =>{
 <div className="total">
 <form onSubmit={SubmitHandler}>
     
-<h1>LOGIN</h1>
-<label for = "UserName">UserName:</label><br/>
-<input type="text" id = "Name" value ={username} name ="username" onChange={onChange} placeholder="User Name"/><br/>
+<h2 style ={{color:"gray"}}>Sign in</h2><br/>
+<h5 style = {{color:"gray"}}>Please login into system to access your tasks.</h5><br/><br/>
 
-<label for="Password"> Password</label><br/>
-<input type = "password" id = "password"   value = {password} name ="password" onChange = {onChange} placeholder = " Password"/><br/>
-<p style={{ fontSize:"10px", textDecoration:"underline", color:"black"}}>Forgot Password?</p><br/><br/>
-<input type ="submit" value = "Login"/>
+<input type="text" id = "Name" value ={username} name ="username" onChange={onChange} placeholder="User Name"/><br/><br/>
+
+
+<input type = "password" id = "password"   value = {password} name ="password" onChange = {onChange} placeholder = " Password"/><br/><br/>
+<p style={{ fontSize:"15px", color:"blue", textAlign:'center'}}>Forgot Password?</p><br/><br/>
+<input type ="submit" value = "Login"/><br/><br/>
+
+
 
 </form>
 

@@ -1,38 +1,38 @@
-.total{background-color:rgb(12,90,45,0.1);
-    text-align:center;
-    width:500px;
-    border-radius:9px;
+.total{background-color:white;
+    text-align:left;
+    width:330px;
+    border-radius:3px;
     margin: 50%  auto;
-    padding:30px;
+    padding:14px;
+    height:400px;
     
 }
 
     input[type=text]{
-    width:50%;
-    border-color:rgb(12,90,45,0.5);
-    padding:6px;
-    border-radius:5px;}
+    width:100%;
+    border-color:gray;
+    padding:9px;
+    border-radius:12px;}
 
-    input[type=email]{
-    width:50%;
-    padding:6px;
-    text-align:left;
-    border-color:rgb(12,90,45,0.5);
-    border-radius:5px;}
+    
 
     input[type=password]{
-    width:50%;
-    padding:6px;
-    border-color:rgb(12,90,45,0.5);
-    border-radius:5px;}
+    width:100%;
+    padding:9px;
+    border-color:gray;
+    border-radius:12px;}
 
    input[type=submit]{
-    width:20%;
-    padding:10px;
-    border-color:rgb(12,90,45,0.5);
-    border-radius:5px;}
+    width:100%;
+    padding:9px;
+    border-color:rgb(66, 101, 242);
+    color:white;
+    background-color:rgb(66, 101, 242);
+    border-radius:12px;}
+
     input[type=submit]:hover{
-    background-color:rgb(12,90,45,0.1);}
+    background-color:rgba(50, 9, 233, 0.913);}
+
     a{border:1px solid rgb(12,90,45,0.5);
     padding:10px;
     border-radius:5px;
@@ -41,3 +41,7 @@
     background-color:white;
     color:black;
  }
+ hr{width:100px;
+float:left;
+margin-left: 10px;}
+ 
